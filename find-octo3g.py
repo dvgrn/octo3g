@@ -101,4 +101,3 @@ for fingerprintfile in searchlist:
         g.show("Searching.  Lines remaining: " + str(count/1000) + "K lines.")
 plural = "" if outptr==1 else "s"
 g.show("Found " + str(outptr) + " line" + plural + " matching " + hash + " in " + str(NUMLINES) + " lines of the octo3obj database.")
-g.setclipstr(str(count))
